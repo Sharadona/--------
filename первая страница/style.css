@@ -400,7 +400,12 @@
         width: 201px;
     }
     /* ПЯТЫЙ БЛОК */
-    
+    .blogpostone-description {
+        padding: 29px 39px 30px 30px;
+    }
+    .blogpostone img {
+        object-fit: cover;
+    }
 }
     
 
