@@ -373,11 +373,11 @@
     width: 100%;
     height: 100%;
 }
-.copyright p {
+.copyright {
     color: #FFFFFF;
     font-size: 18px;
     line-height: 28px;
-    padding: 10px 0 15px;
+    padding: 10px 0 16px;
 }
 
 
