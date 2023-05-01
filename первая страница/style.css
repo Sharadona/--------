@@ -379,5 +379,13 @@
     line-height: 28px;
     padding: 10px 0 16px;
 }
+/*                                                           !ВЕРСИЯ ДЛЯ ПЛАНШЕТОВ!                                                                           */
+@media (max-width: 1360px) {
+    .main-block-header a {
+        margin-right: 18px;
+    }
+}
+    
+
 
 
