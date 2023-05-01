@@ -406,6 +406,17 @@
     .blogpostone img {
         object-fit: cover;
     }
+    /* СЕДЬМОЙ БЛОК */
+    .request-form {
+       margin: 26px 0 30px;
+    }
+    .request img {
+        object-fit: cover;
+    }
+}
+/*                                                         ВЕРСИЯ ДЛЯ ТЕЛЕФОНОВ                                                                               */
+@media (max-width: 768px) {
+
 }
     
 
