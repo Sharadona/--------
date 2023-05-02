@@ -413,7 +413,7 @@
         object-fit: cover;
     }
 }
-/*                                                         ВЕРСИЯ ДЛЯ ТЕЛЕФОНОВ                                                                               */
+/*                                                         !ВЕРСИЯ ДЛЯ ТЕЛЕФОНОВ!                                                                               */
 @media (max-width: 768px) {
     /* ПЕРВЫЙ БЛОК */
     .main-block-header {
@@ -430,11 +430,35 @@
         text-decoration: none;
         margin-right: 13px;
     }
+    .main-block-header nav a {
+        line-height: 26px;
+    }
     .main-block-header img {
         width: 100%;
     }
     .main-block-title {
        margin: 44px 0 95px;
+    }
+    .main-block-title h1 {
+        font-size: 52px;
+    }
+    /* ВТОРОЙ БЛОК */
+    .main-block-info-cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 48px 31px 52px;
+        gap: 18px;
+    }
+    .main-block-info-card {
+        width: 100%;
+    }
+    .main-block-info-card h5 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .main-block-info-card p {
+        font-size: 16px;
+        line-height: 26px;
     }
 }
     
