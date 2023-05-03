@@ -426,7 +426,8 @@
     }
     .main-block-header img {
         width: 100%;
-        padding: 0 19px 0 28px;
+        max-width: 400px;
+        padding: 0 19px 0 28px; 
     }
     .main-block-header nav {
         display: flex;
@@ -439,6 +440,7 @@
     }
     .main-block-title {
        margin-top: 44px;
+       padding: 0 37px;
     }
     .main-block-title h1 {
         font-size: 52px;
@@ -468,6 +470,7 @@
         font-size: 16px;
         line-height: 26px;
     }
+    /* ТРЕТИЙ БЛОК */
 }
     
 
