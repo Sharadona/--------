@@ -471,6 +471,32 @@
         line-height: 26px;
     }
     /* ТРЕТИЙ БЛОК */
+    .solutions {
+        display: flex;
+        flex-direction: column;
+    }
+    .solutions img {
+        width: 100%;
+    }
+    .solutions-description {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 100%;
+        padding: 30px;
+    }
+    .solutions-description-note {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .solutions-description-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .solutions-description button {
+       margin-top: 14px;
+       font-size: 16px;
+    }
 }
     
 
