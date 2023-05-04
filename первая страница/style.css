@@ -481,7 +481,6 @@
     .solutions-description {
         display: flex;
         flex-direction: column;
-        text-align: left;
         width: 100%;
         padding: 30px;
     }
@@ -497,6 +496,34 @@
        margin-top: 14px;
        font-size: 16px;
     }
+    /* ЧЕТВЁРТЫЙ БЛОК */
+    .bussiness {
+        margin: 50px 0 48px;
+        width: 100%;
+    }
+    .bussiness-description {
+        padding: 0 50px;
+    }
+    .business-description-note {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .business-description-text {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 35px 0 37px;
+    }
+    .bussiness-cards-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7px;
+    }
+    .bussiness-card {
+        flex: 1 1 260px;
+    }
+    /* ПЯТЫЙ БЛОК */
+    
 }
     
 
