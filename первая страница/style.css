@@ -553,7 +553,53 @@
         line-height: 26px;
     }
     /* ШЕСТОЙ БЛОК */
-    
+    .professional {
+        margin: 0;
+        padding: 50px 0;
+    }
+    .professional-description {
+        padding: 0 50px 37px;
+    }
+    .professional-description-note {
+        margin: 0;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .professional-description h2 {
+       margin: 0;
+       padding-top: 15px;
+    }
+    .professional-description-text {
+        margin: 0;
+        padding-top: 35px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 20px;
+    }
+    .person-name {
+        font-size: 23px;
+        line-height: 29px;
+        margin-top: 15px;
+    }
+    .person-role {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 11px;
+    }
+    .social {
+        flex: block;
+        justify-content: space-around;
+        gap: 0;
+    }
+    .social a {
+        flex: 0 1 10%;
+    }
 }
     
 
