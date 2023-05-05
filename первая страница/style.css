@@ -488,6 +488,9 @@
         font-size: 18px;
         line-height: 30px;
     }
+    .solutions-description h3 {
+        width: 100%;
+    }
     .solutions-description-text {
         font-size: 16px;
         line-height: 26px;
@@ -523,6 +526,33 @@
         flex: 1 1 260px;
     }
     /* ПЯТЫЙ БЛОК */
+    .blogpostone {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .blogpostone img {
+        width: 100%;
+    }
+    .blogpostone-description {
+        margin: 0;
+        padding: 30px 30px;
+        width: 100%;
+    }
+    .blogpostone-description-note {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .blogpostone-description-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blogpostone-description button {
+        margin-top: 14px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* ШЕСТОЙ БЛОК */
     
 }
     
