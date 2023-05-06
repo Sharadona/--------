@@ -600,6 +600,36 @@
     .social a {
         flex: 0 1 10%;
     }
+    /* СЕДЬМОЙ БЛОК */
+    .request {
+        display: flex;
+        flex-direction: column;
+    }
+    .request img {
+        width: 100%;
+    }
+    .request-form {
+      width: 100%;
+      margin: 0;
+      padding: 26px 30px 30px;
+    }
+    .request-form h2 {
+        margin: 0;
+    }
+    .request-form form {
+        margin: 0;
+    }
+    .name input {
+        font-size: 16px;
+        line-height: 23px;
+        padding: 9px 0 7px 5px;
+    }
+    .request-form button {
+        margin-top: 53px;
+        font-size: 16px;
+    }
+    /* ВОСЬМОЙ БЛОК */
+    
 }
     
 
