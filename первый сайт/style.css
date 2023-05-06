@@ -141,7 +141,7 @@
 }
 /*                                   !ЧЕТВЁРТЫЙ БЛОК!                                */
 .bussiness {
-    margin-bottom: 48px;
+    margin: 50px 0 48px;
 }
 .bussiness-description {
     text-align: center;
@@ -150,7 +150,6 @@
 .business-description-note {
     font-size: 20px;
     line-height: 33px;
-    margin-top: 50px;
 }
 .bussiness-description h2 {
     font-size: 38px;
@@ -501,7 +500,6 @@
     }
     /* ЧЕТВЁРТЫЙ БЛОК */
     .bussiness {
-        margin: 50px 0 48px;
         width: 100%;
     }
     .bussiness-description {
@@ -593,7 +591,6 @@
         margin-top: 11px;
     }
     .social {
-        flex: block;
         justify-content: space-around;
         gap: 0;
     }
