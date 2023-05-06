@@ -69,6 +69,7 @@
     justify-content: space-between;
     margin: auto;
     padding: 40px 20px 20px;
+    gap: 66px;
 }
 .main-block-info-card {
     display: flex;
@@ -77,8 +78,6 @@
     align-items: center;
     text-align: center;
     width: 360px;
-    margin-left: 66px;
-    margin-right: 66px;
 }
 .main-block-info h5 {
     color: #333333;
@@ -379,5 +378,47 @@
     line-height: 28px;
     padding: 10px 0 16px;
 }
+/*                                                           !ВЕРСИЯ ДЛЯ ПЛАНШЕТОВ!                                                                           */
+@media (max-width: 1360px) {
+   /* ПЕРВЫЙ БЛОК */
+    .main-block-header a {
+        margin-right: 18px;
+    }
+    /* ВТОРОЙ БЛОК */
+    .main-block-info-cards-wrapper {
+        padding: 39px 56px 47px 53px;
+        gap: 49px;
+    }
+    /* ТРЕТИЙ БЛОК */
+    .solutions img {
+        object-fit: cover;
+    }
+    .solutions-description {
+        padding: 30px 39px 30px 30px;
+    }
+    .solutions-description h3 {
+        width: 201px;
+    }
+    /* ПЯТЫЙ БЛОК */
+    .blogpostone-description {
+        padding: 29px 39px 30px 30px;
+    }
+    .blogpostone img {
+        object-fit: cover;
+    }
+    /* СЕДЬМОЙ БЛОК */
+    .request-form {
+       margin: 26px 0 30px;
+    }
+    .request img {
+        object-fit: cover;
+    }
+}
+/*                                                         ВЕРСИЯ ДЛЯ ТЕЛЕФОНОВ                                                                               */
+@media (max-width: 768px) {
+
+}
+    
+
 
 
