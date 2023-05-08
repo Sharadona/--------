@@ -33,4 +33,49 @@
     color: #000000;
 }
 /*              ВТОРОЙ БЛОК                */
+.aperturestudios {
+    background-image: url("./img/aperturestudios.png");
+    background-size: cover;
+    height: 76.3vh;
+}
+.aperturestudios-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 466px 430px 14px;
+}
+.aperturestudios-title p {
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.aperturestudios-note {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.aperturestudios-title h1 {
+    color: #FFFFFF;
+    font-size: 54px;
+    line-height: 59px;
+    padding-top: 1px;
+}
+.aperturestudios-text {
+    padding-top: 18px;
+}
+.photoparameters {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-right: 40px;
+}
+.photoparameters-lowerdata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: 12px;
+    line-height: 12px;
+}
+/*               ТРЕТИЙ БЛОК                 */
 
