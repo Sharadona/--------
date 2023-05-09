@@ -36,7 +36,7 @@
 .aperturestudios {
     background-image: url("./img/aperturestudios.png");
     background-size: cover;
-    height: 76.3vh;
+    height: 76.6vh;
 }
 .aperturestudios-title {
     display: flex;
@@ -78,4 +78,92 @@
     line-height: 12px;
 }
 /*               ТРЕТИЙ БЛОК                 */
+.whatwedo {
+    background-color: #000000;
+    padding: 113px 136px 100px;
+}
+.whatwedo-title {
+    text-align: center;
+}
+.whatwedo-title h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+}
+.whatwedo-title p {
+    color: #C0C0C0;
+    font-size: 23px;
+    line-height: 30px;
+    padding-top: 15px;
+}
+.whatwedo-photography {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 42px;
+}
+.product {
+    background-image: url("./img/product.png");
+    background-size: cover;
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    align-items: flex-end;
+}
+.architecture {
+    background-image: url("./img/architecture.png");
+    background-size: cover;
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    align-items: flex-end;
+}
+.drone {
+    background-image: url("./img/drone.png");
+    background-size: cover;
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    align-items: flex-end;
+}
+.widlife {
+    background-image: url("./img/widlife.png");
+    background-size: cover;
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    align-items: flex-end;
+}
+.textinsidephoto {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px 30px;
+}
+.whatwedo-note {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.whatwedo-text {
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+.textinsidephoto button {
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    padding: 5px 15px 5px 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 17px;
+    border-radius: 14px;
+}
+/*                   ЧЕТВЁРТЫЙ БЛОК                  */
 
