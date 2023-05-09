@@ -109,6 +109,7 @@
     width: 60vh;
     display: flex;
     align-items: flex-end;
+    flex: 1 1 calc(50% - 16px);
 }
 .architecture {
     background-image: url("./img/architecture.png");
@@ -117,6 +118,7 @@
     width: 60vh;
     display: flex;
     align-items: flex-end;
+    flex: 1 1 calc(50% - 16px);
 }
 .drone {
     background-image: url("./img/drone.png");
@@ -125,6 +127,7 @@
     width: 60vh;
     display: flex;
     align-items: flex-end;
+    flex: 1 1 calc(50% - 16px);
 }
 .widlife {
     background-image: url("./img/widlife.png");
@@ -133,6 +136,7 @@
     width: 60vh;
     display: flex;
     align-items: flex-end;
+    flex: 1 1 calc(50% - 16px);
 }
 .textinsidephoto {
     display: flex;
