@@ -10,7 +10,6 @@
     background-image: url("./img/background-main-block.png");
     background-size: cover;
     height: 100vh;
-    
 }
 .main-block-header {
     padding: 10px 47px;
@@ -142,7 +141,7 @@
 }
 /*                                   !ЧЕТВЁРТЫЙ БЛОК!                                */
 .bussiness {
-    margin-bottom: 48px;
+    margin: 50px 0 48px;
 }
 .bussiness-description {
     text-align: center;
@@ -151,7 +150,6 @@
 .business-description-note {
     font-size: 20px;
     line-height: 33px;
-    margin-top: 50px;
 }
 .bussiness-description h2 {
     font-size: 38px;
@@ -379,7 +377,7 @@
     padding: 10px 0 16px;
 }
 /*                                                           !ВЕРСИЯ ДЛЯ ПЛАНШЕТОВ!                                                                           */
-@media (max-width: 1360px) {
+@media (max-width: 1359px) {
    /* ПЕРВЫЙ БЛОК */
     .main-block-header a {
         margin-right: 18px;
@@ -414,9 +412,225 @@
         object-fit: cover;
     }
 }
-/*                                                         ВЕРСИЯ ДЛЯ ТЕЛЕФОНОВ                                                                               */
-@media (max-width: 768px) {
-
+/*                                                         !ВЕРСИЯ ДЛЯ ТЕЛЕФОНОВ!                                                                               */
+@media (max-width: 767px) {
+    /* ПЕРВЫЙ БЛОК */
+    .main-block {
+        background-image: url("./img/background-main-block-mobile.png");   
+    }
+    .main-block-header {
+        padding: 21px 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-block-header img {
+        width: 100%;
+        max-width: 400px;
+        padding: 0 19px 0 28px; 
+    }
+    .main-block-header nav {
+        display: flex;
+        justify-content: center;
+        padding: 10px 19px 0 20px;
+        line-height: 26px;
+    }
+    .main-block-header a {
+        margin-right: 13px;
+    }
+    .main-block-title {
+       margin-top: 44px;
+       padding: 0 37px;
+    }
+    .main-block-title h1 {
+        font-size: 52px;
+        margin-bottom: 16px;
+    }
+    .main-block-title p {
+        margin-bottom: 27px;
+    }
+    .main-block-title button {
+        font-size: 16px;
+    }
+    /* ВТОРОЙ БЛОК */
+    .main-block-info-cards-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 48px 31px 52px;
+        gap: 18px;
+    }
+    .main-block-info-card {
+        width: 100%;
+    }
+    .main-block-info-card h5 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .main-block-info-card p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* ТРЕТИЙ БЛОК */
+    .solutions {
+        display: flex;
+        flex-direction: column;
+    }
+    .solutions img {
+        width: 100%;
+    }
+    .solutions-description {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px;
+    }
+    .solutions-description-note {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .solutions-description h3 {
+        width: 100%;
+    }
+    .solutions-description-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .solutions-description button {
+       margin-top: 14px;
+       font-size: 16px;
+    }
+    /* ЧЕТВЁРТЫЙ БЛОК */
+    .bussiness {
+        width: 100%;
+    }
+    .bussiness-description {
+        padding: 0 50px;
+    }
+    .business-description-note {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .business-description-text {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 35px 0 37px;
+    }
+    .bussiness-cards-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7px;
+    }
+    .bussiness-card {
+        flex: 1 1 260px;
+    }
+    /* ПЯТЫЙ БЛОК */
+    .blogpostone {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .blogpostone img {
+        width: 100%;
+    }
+    .blogpostone-description {
+        margin: 0;
+        padding: 30px 30px;
+        width: 100%;
+    }
+    .blogpostone-description-note {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .blogpostone-description-text {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blogpostone-description button {
+        margin-top: 14px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* ШЕСТОЙ БЛОК */
+    .professional {
+        margin: 0;
+        padding: 50px 0;
+    }
+    .professional-description {
+        padding: 0 50px 37px;
+    }
+    .professional-description-note {
+        margin: 0;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .professional-description h2 {
+       margin: 0;
+       padding-top: 15px;
+    }
+    .professional-description-text {
+        margin: 0;
+        padding-top: 35px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .team {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 20px;
+    }
+    .person-name {
+        font-size: 23px;
+        line-height: 29px;
+        margin-top: 15px;
+    }
+    .person-role {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 11px;
+    }
+    .social {
+        justify-content: space-around;
+        gap: 0;
+    }
+    .social a {
+        flex: 0 1 10%;
+    }
+    /* СЕДЬМОЙ БЛОК */
+    .request {
+        display: flex;
+        flex-direction: column;
+    }
+    .request img {
+        width: 100%;
+    }
+    .request-form {
+      width: 100%;
+      margin: 0;
+      padding: 26px 30px 30px;
+    }
+    .request-form h2 {
+        margin: 0;
+    }
+    .request-form form {
+        margin: 0;
+    }
+    .name input {
+        font-size: 16px;
+        line-height: 23px;
+        padding: 9px 0 7px 5px;
+    }
+    .request-form button {
+        margin-top: 53px;
+        font-size: 16px;
+    }
+    /* ВОСЬМОЙ БЛОК */
+    .copyright {
+        padding: 9px 30px 20px 34px;
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
     
 
