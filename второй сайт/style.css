@@ -73,7 +73,7 @@
     display: flex;
     justify-content: flex-end;
     gap: 16px;
-    padding: 14px 40px 40px
+    padding: 14px 40px 40px;
 }
 .photoparameters-lowerdata {
     display: flex;
@@ -203,4 +203,71 @@
     line-height: 12px;
 }
 /*                   ПЯТЫЙ БЛОК                  */
+.gear-cage {
+    background-color: #000000;
+    display: flex;
+}
+.thatweuse {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 100px;
+}
+.thatweuse-note {
+    color: #C0C0C0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.thatweuse h2 {
+    color: #FFFFFF;
+    font-size: 28px;
+    line-height: 32px;
+    padding-top: 6px;
+}
+.thatweuse-text {
+    color: #FFFFFF;
+    padding-top: 16px;
+    width: 514px;
+}
+.thatweuse p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.thatweuse button {
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    padding: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 14px;
+    cursor: pointer;
+    width: 152px;
+    margin-top: 20px;
+}
+.photoparameters-gear {
+    background-image: url("./img/gearcage.png");
+    background-size: cover;
+    height: 540px;
+    width: 120%;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 16px;
+    padding: 40px 40px;
+}
+.photoparameters-cage {
+    color: #FFFFFF;
+    gap: 6px;
+    display: flex;
+}
+.photoparameters-cage sub {
+    font-size: 12px;
+    line-height: 12px;
+}
 
