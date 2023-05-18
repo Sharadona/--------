@@ -34,6 +34,8 @@
 .textparameters {
     display: flex;
     gap: 6px;
+}
+.textparameters sub {
     font-size: 12px;
     line-height: 12px;
 }
@@ -214,4 +216,55 @@
     padding: 40px;
 }
 /*                            ШЕСТОЙ БЛОК                            */
-
+.monsteraleafs {
+    background-image: url("./img/monstera.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.leafs {
+    padding-right: 87px;
+}
+.leafs-note {
+    color: #FFFFFF;
+}
+.leafs-text {
+    max-width: 273px;
+}
+.leafs-costarica {
+    display: flex;
+    padding: 204px 40px 40px 0;
+}
+/*                            СЕДЬМОЙ БЛОК                            */
+.pastclients {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 113px 182px 140px;
+}
+.clients h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 42px;
+}
+.clients p {
+    color: #C0C0C0;
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 15px;
+}
+.company {
+    display: flex;
+    align-items: center;
+    gap: 109px;
+    padding-top: 82px;
+}
+/*                            ВОСЬМОЙ БЛОК                            */
