@@ -5,6 +5,38 @@
     font-weight: 400;
     box-sizing: border-box;
 }
+.note {
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.text {
+    color: #C0C0C0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.button {
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    border: none;
+    gap: 5px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.photoparameters {
+    color: #FFFFFF;
+    gap: 16px;
+}
+.textparameters {
+    display: flex;
+    gap: 6px;
+    font-size: 12px;
+    line-height: 12px;
+}
 /*              ПЕРВЫЙ БЛОК                */
 .upperblock {
     background-color: #181818;
@@ -24,15 +56,7 @@
     padding-right: 32px;
 }
 .upperblock-linksbutton button {
-    border-radius: 14px;
-    border: none;
     padding: 9px 20px 13px;
-    letter-spacing: 0.4px;
-    cursor: pointer;
-
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
 }
 /*              ВТОРОЙ БЛОК                */
 .aperturestudios {
@@ -49,15 +73,6 @@
     max-width: 580px;
     margin: 0 auto;
 }
-.aperturestudios-title p {
-    color: #C0C0C0;
-    font-size: 14px;
-    line-height: 20px;
-}
-.aperturestudios-note {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
 .aperturestudios-title h1 {
     color: #FFFFFF;
     font-size: 54px;
@@ -68,20 +83,10 @@
     padding-top: 18px;
     text-align: center;
 }
-.photoparameters {
-    color: #FFFFFF;
+.photoparameters-aperture {
     display: flex;
     justify-content: flex-end;
-    gap: 16px;
     padding: 14px 40px 40px;
-}
-.photoparameters-lowerdata {
-    display: flex;
-    gap: 6px;
-}
-.photoparameters-lowerdata sub {
-    font-size: 12px;
-    line-height: 12px;
 }
 /*               ТРЕТИЙ БЛОК                 */
 .whatwedo {
@@ -132,32 +137,14 @@
     flex-wrap: wrap;
     padding: 0 30px 30px;
 }
-.whatwedo-note {
-    color: #FFFFFF;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
 .whatwedo-text {
-    color: #C0C0C0;
-    font-size: 14px;
-    line-height: 20px;
     padding-top: 10px;
 }
 .textinsidephoto button {
-    color: #000000;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
     padding: 5px 15px 5px 5px;
-    border: none;
     display: flex;
     align-items: center;
-    gap: 5px;
     margin-top: 17px;
-    border-radius: 14px;
-    cursor: pointer;
 }
 /*                   ЧЕТВЁРТЫЙ БЛОК                  */
 .sunsetfuji {
@@ -177,30 +164,13 @@
 }
 .fuji-note {
     color: #FFFFFF;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
 }
 .fuji-text {
-    color: #C0C0C0;
-    font-size: 14px;
-    line-height: 20px;
     width: 298px;
 }
 .fuji-japan {
-    color: #FFFFFF;
-    gap: 16px;
     display: flex;
     padding: 204px 40px 45px 0;
-}
-.photoparameters-fujijapan {
-    gap: 6px;
-    display: flex;
-}
-.photoparameters-fujijapan sub {
-    font-size: 12px;
-    line-height: 12px;
 }
 /*                   ПЯТЫЙ БЛОК                  */
 .gear-cage {
@@ -208,16 +178,11 @@
     display: flex;
 }
 .thatweuse {
-    width: 100%;
+    flex-basis: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 100px;
-}
-.thatweuse-note {
-    color: #C0C0C0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    padding: 100px;
 }
 .thatweuse h2 {
     color: #FFFFFF;
@@ -228,24 +193,12 @@
 .thatweuse-text {
     color: #FFFFFF;
     padding-top: 16px;
-    width: 514px;
-}
-.thatweuse p {
-    font-size: 14px;
-    line-height: 20px;
+    max-width: 514px;
 }
 .thatweuse button {
-    color: #000000;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
     padding: 5px;
-    border: none;
     display: flex;
     align-items: center;
-    gap: 5px;
-    border-radius: 14px;
-    cursor: pointer;
     width: 152px;
     margin-top: 20px;
 }
@@ -253,21 +206,12 @@
     background-image: url("./img/gearcage.png");
     background-size: cover;
     height: 540px;
-    width: 120%;
+    flex-basis: 50%;
     background-position: center center;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    gap: 16px;
-    padding: 40px 40px;
+    padding: 40px;
 }
-.photoparameters-cage {
-    color: #FFFFFF;
-    gap: 6px;
-    display: flex;
-}
-.photoparameters-cage sub {
-    font-size: 12px;
-    line-height: 12px;
-}
+/*                            ШЕСТОЙ БЛОК                            */
 
