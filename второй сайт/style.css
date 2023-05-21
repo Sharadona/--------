@@ -239,7 +239,7 @@
 }
 .leafs-costarica {
     display: flex;
-    padding: 204px 40px 40px 0;
+    padding: 204px 40px 40px;
 }
 /*                            СЕДЬМОЙ БЛОК                            */
 .pastclients {
@@ -248,7 +248,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 113px 182px 140px;
+    padding: 113px 0 140px;
 }
 .clients h2 {
     color: #FFFFFF;
@@ -268,3 +268,29 @@
     padding-top: 82px;
 }
 /*                            ВОСЬМОЙ БЛОК                            */
+.starfall-himalayas {
+    background-image: url("./img/himalayas.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.himalayas {
+    padding-right: 106px;
+}
+.himalayas-note {
+    color: #FFFFFF;
+}
+.himalayas-text {
+    max-width: 241px;
+}
+.himalayas-nepal {
+    display: flex;
+    padding: 194px 40px 40px;
+}
+/*                            ДЕВЯТЫЙ БЛОК                            */
