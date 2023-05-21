@@ -201,7 +201,7 @@
     padding: 5px;
     display: flex;
     align-items: center;
-    width: 152px;
+    max-width: 152px;
     margin-top: 20px;
 }
 .photoparameters-gear {
@@ -294,3 +294,31 @@
     padding: 194px 40px 40px;
 }
 /*                            ДЕВЯТЫЙ БЛОК                            */
+.need-help {
+    background-color: #000000;
+}
+.needhelp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 113px 0 108px;
+}
+.needhelp h2 {
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    max-width: 571px;
+}
+.needhelp p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    padding-top: 15px;
+}
+.needhelp button {
+    margin-top: 22px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
