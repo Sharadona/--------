@@ -322,3 +322,66 @@
     display: flex;
     align-items: center;
 }
+/*                            ДЕСЯТЫЙ БЛОК                            */
+.aperture-end {
+    background-color: #000000;
+    padding: 100px 140px;
+}
+.aperture-end h2{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.aperture-end p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.business-pages-photo-video {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 36px;
+}
+.photo-video p {
+    padding-top: 20px;
+}
+.business-areas {
+    padding-left: 270px;
+}
+.business-pages p {
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.newsletter {
+    border-top: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    padding: 36px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter p {
+    padding-top: 20px;
+}
+.newsletter h2 {
+    color: #FFFFFF;
+}
+.newsletter-button {
+    background-color: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding-left: 458px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.aperture-links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+.links {
+    display: flex;
+    gap: 20px;
+}
