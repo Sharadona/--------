@@ -325,7 +325,8 @@
 /*                            ДЕСЯТЫЙ БЛОК                            */
 .aperture-end {
     background-color: #000000;
-    padding: 100px 140px;
+    max-width: 100%;
+    padding: 10px;
 }
 .aperture-end h2{
     font-size: 14px;
@@ -339,6 +340,10 @@
     line-height: 20px;
     color: #C0C0C0;
 }
+.aperture-ends {
+    max-width: 1168px;
+    margin: 100px auto;
+}
 .business-pages-photo-video {
     display: flex;
     justify-content: space-between;
@@ -350,9 +355,16 @@
 .business-areas {
     padding-left: 270px;
 }
-.business-pages p {
+.business-pages {
+    display: flex;
+    flex-direction: column;
+}
+.business-pages a {
     color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
     padding-top: 10px;
+    text-decoration: none;
 }
 .newsletter {
     border-top: 2px solid #FFFFFF;
