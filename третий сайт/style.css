@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+/*                                 !ПЕРВЫЙ БЛОК!                                  */
+.grand-theatre {
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)), url("./img/grand-theatre.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 208px;
+}
+.kontakt-inform {
+    background: rgba(51, 51, 51, 0.75);
+    width: 150px;
+    height: 1045px;
+    
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+}
+.kontakt-inform h2 {
+    color: #C4C4C4;
+    writing-mode: vertical-rl;
+    rotate: -180deg;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.fa {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 30px;
+}
+a:hover i {
+    color: #D1A954;;
+}
+
+.main-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+
+    margin: auto;
+    padding: 50px 0 191px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+}
+.main-links a {
+    color: #FFFFFF;
+    text-decoration: none; 
+}
+.number {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+.number:after {
+    background-color: #D1A954;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    transition: width .5s ;
+}
+.number:hover:after {
+    width: 100%;
+}
+
+.grand-theatre-photo {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.theatre {
+    gap: 50px;
+    padding-right: 125px;
+    text-align: left;
+}
+.theatre h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.theatre p {
+    max-width: 540px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 50px;
+}
+.theatre button {
+    background-color: #D1A954;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 20px 47px;
+    border: none;
+    cursor: pointer;
+}
+.theatre-slide {
+    max-width: 370px;
+}
+.slide {
+    padding-bottom: 35px;
+}
+.theatre-slide button {
+  display: flex;
+ 
+}
+.grand-theatre-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grand-theatre-button img {
+    margin: auto;
+}
+.button-theatre {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+}
+.button-left {
+    color: #C4C4C4;
+}
+.button-left img {
+    padding-right: 25px;
+}
+.button-right {
+    color: #FFFFFF;
+}
+.button-right img {
+    padding-left: 25px;
+}
+
+
