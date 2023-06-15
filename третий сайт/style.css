@@ -9,6 +9,7 @@
 .grand-theatre {
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)), url("./img/grand-theatre.png");
     background-size: cover;
+    position: relative;
     width: 100%;
     height: 100%;
     padding-bottom: 208px;
@@ -16,7 +17,7 @@
 .kontakt-inform {
     background: rgba(51, 51, 51, 0.75);
     width: 150px;
-    height: 1045px;
+    height: 100%;
     
     position: absolute;
 
@@ -85,14 +86,15 @@ a:hover i {
 }
 
 .grand-theatre-photo {
+    max-width: 1110px;
+    margin: auto;
+
     color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .theatre {
-    gap: 50px;
-    padding-right: 125px;
     text-align: left;
 }
 .theatre h1 {
@@ -141,24 +143,26 @@ a:hover i {
     margin: auto;
 }
 .button-theatre {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    color: #C4C4C4;
     font-weight: 700;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.1em;
-    text-transform: uppercase;
-    background-color: transparent;
-    border: none;
+   
+    transition: color .3s ;
 }
-.button-left {
-    color: #C4C4C4;
-}
-.button-left img {
-    padding-right: 25px;
-}
-.button-right {
+.button-theatre:hover, 
+.button-theatre:hover i {
     color: #FFFFFF;
 }
-.button-right img {
+.button-left i {
+    padding-right: 25px;
+}
+.button-right i {
     padding-left: 25px;
 }
 
