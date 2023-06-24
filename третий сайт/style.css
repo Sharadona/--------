@@ -1,9 +1,34 @@
+@font-face {
+	font-family: 'OpenSansCondensed';
+    font-style: normal;
+    font-weight: 700; 
+	src: url("./fonts/OpenSansCondensed-Bold.woff2") format("woff2"),
+        url("./fonts/OpenSansCondensed-Bold.woff") format("woff"); 
+}
+@font-face {
+	font-family: 'OpenSansCondensed';
+    font-style: normal;
+    font-weight: 400; 
+	src: url("./fonts/OpenSansCondensed-Regular.woff2") format("woff2"),
+        url("./fonts/OpenSansCondensed-Regular.woff") format("woff"); 
+}
+@font-face {
+	font-family: 'OpenSansCondensed';
+    font-style: normal;
+    font-weight: 300; 
+	src: url("./fonts/OpenSansCondensed-Light.woff2") format("woff2"),
+        url("./fonts/OpenSansCondensed-Light.woff") format("woff"); 
+}
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'OpenSansCondensed', sans-serif;
     font-weight: 400;
     box-sizing: border-box;
+}
+button {
+    background: transparent;
+    border: none;
 }
 /*                                 !ПЕРВЫЙ БЛОК!                                  */
 .grand-theatre {
@@ -53,7 +78,6 @@ a:hover i {
     margin: auto;
     padding: 50px 0 191px;
 
-    font-weight: 700;
     text-transform: uppercase;
 }
 .menu {
@@ -62,11 +86,12 @@ a:hover i {
 
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
 }
 .main-links a {
     color: #FFFFFF;
     text-decoration: none; 
+    font-weight: 700;
 }
 .number {
     font-size: 16px;
@@ -107,9 +132,9 @@ a:hover i {
 }
 .theatre p {
     max-width: 540px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    
+    font: 400 14px/21px "Open Sans", sans-serif;
+    
     padding-bottom: 50px;
 }
 .theatre button {
@@ -126,13 +151,13 @@ a:hover i {
 }
 .theatre-slide {
     max-width: 370px;
+    margin-right: 75px;
 }
 .slide {
     padding-bottom: 35px;
 }
 .theatre-slide button {
   display: flex;
- 
 }
 .grand-theatre-button {
     display: flex;
@@ -165,5 +190,108 @@ a:hover i {
 .button-right i {
     padding-left: 25px;
 }
+.burger-menu {
+    display: none;
+}
+.kontakt-inform-menu {
+    display: none;
+}
 
+/*                                                           !ВЕРСИЯ 1439px!                                                                           */
+@media (max-width: 1439px) {
+    .main-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu  {
+        margin: auto;
+        width: 652px;
+    }
+    .number {
+        margin: 50px auto 0;
+    }
+    .theatre {
+        margin: auto;
+        width: 652px;
+    }
+    .theatre-slide {
+        display: none;
+    }
+}
+/*                                                           !ВЕРСИЯ 991px!                                                                           */
+@media (max-width: 991px) {
+    .kontakt-inform,
+    .menu {
+        display: none;
+   }
+   .burger-menu {
+        display: block;
+   }
+    .main-links {
+        max-width: 690px;
+        flex-direction: row;
+    }
+   .number {
+        margin: 0;
+   }
+   .number:after {
+        width: 100%;
+   }
+   .theatre {
+        max-width: 690px;
+        width: 100%;
+   }
+   .kontakt-inform-menu {
+        background: #333333;
+        width: 300px;
+        height: 100%;
+        padding: 40px;
+        
+        position: absolute;
+        left: 0;
+        bottom: 0;
 
+        display: flex;
+        flex-direction: column;
+   }
+   .hidden {
+    display: none;
+   }
+   .close {
+        display: flex;
+        justify-content: flex-end;
+   }
+   .menu-links {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        padding-top: 86px;
+
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.05em;
+   }
+   .kontakt-links {
+        padding: 90px 40px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: self-end;
+        gap: 50px;
+   }
+   .kontakt-links1 {
+        display: flex;
+        gap: 60px;
+   }
+   .kontakt-links2 {
+        display: flex;
+        align-items: self-end;
+        gap: 50px;
+   }
+}
+/*                                                           !ВЕРСИЯ 767px!                                                                           */
+@media (max-width: 767px) {
+    .grand-theatre {
+        padding: 0 32px 105px;
+    }
+}
