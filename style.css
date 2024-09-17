@@ -1,14 +1,22 @@
-.main-block {
-    background-image: url("./img/kankuro.jpg");
-    background-size: cover;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    font-size: 55px;
+* {
+    margin: 0;
 }
 
-a {
-    color: red;
-    text-decoration: none;
+body {
+    background-color: #FAF3E0;
+    height: 100dvh;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 500px;
+    height: 280px;
+    object-fit: cover;
 }
